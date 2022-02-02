@@ -1,0 +1,97 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap'); */
+:root {
+    --dark-grayish-blue: hsl(217, 19%, 35%);
+    --dark-blue: hsl(214, 17%, 51% );
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+body {
+    font-size: 13px;
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    height: 100vh;   /*  viewport height */
+    /* width: 100vw;  viewport width */
+ 
+}
+img{
+  width: 100%;
+   object-fit: cover;
+}
+figure{
+     margin: 0px;
+}
+
+.articles{
+    background-color: hsl(212, 39%, 83%);
+    padding: 250px;
+    height: 100%;
+}
+
+article{
+  background-color:  hsl(210, 46%, 95%);
+  height: 300px;
+  width: 800px;
+  /* border-radius: 10px; */
+  margin: 0 auto;
+ 
+
+}
+.post-image-wrapper{
+     width: 400px;
+    
+}
+
+
+.post-image {
+    height: 300px;
+    width: 300px;
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.div1{
+    float: left;
+}
+.div2{
+    padding: 20px 25px;
+    margin: 25px;
+   
+}
+.div2 p{
+    margin-bottom: 10px;
+}
+.div-group{
+    text-align: center;   
+    
+}
+/* h2{
+    color: rgb(20, 3, 3);
+    font-size: 20pxpx;
+} */
+.author{
+    width: 60px;
+    height: 70px;
+    border-radius: 45px;
+    padding: 10px;
+}
+.div3{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.div4{
+    float: right;
+   
+}
+.div5{
+    float: right;
+    padding: 45px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    background-color:rgb(179, 202, 233);
+  border-radius: 40%;
+   
+}
